@@ -18,8 +18,8 @@ print(f"F(max) = {np.max(f):.4f}\n"
 print(f"Длина массива: {len(f)}")
 print(f"Отсортированный массив: {np.sort(f)}")
 
-plt.plot(a, f, label=''
-                     'f')
+plt.plot(a, f)
+plt.yscale(value="log")
 plt.axhline(np.mean(f), color='red', label='Среднее значение f')
 
 plt.title('График функции f')
