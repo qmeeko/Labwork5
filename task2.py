@@ -57,4 +57,4 @@ print(roomCounter)
 pivotTable = pd.pivot_table(dataSet, values='Id', index='DistrictId', columns='Rooms', aggfunc='count', fill_value=0)
 print(pivotTable)
 
-dataSet.to_csv('surname.cvs')
+dataSet.to_csv('surname.csv')
